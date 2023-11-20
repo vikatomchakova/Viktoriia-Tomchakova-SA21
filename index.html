@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Space</title>
+    <link href='https://fonts.googleapis.com/css?family=Nixie One' rel='stylesheet'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="computer_header">
+        <div class="header_wrap">
+            <img src="img/logo3.png" alt="Logo" class="logo">
+            <nav>
+                <a class="header_nav" href="#section_main">ГОЛОВНА</a>
+                <a class="header_nav" href="#section_aboutUs">ПРО НАС</a>
+                <a class="header_nav" href="#section_service">ПОСЛУГИ</a>
+                <a class="header_nav" href="#section_ourStaff">МАЙСТРИ</a>
+                <a class="header_nav" href="#section_reviews">ВІДГУКИ</a>
+                <a class="header_nav" href="#section_contacts">КОНТАКТИ</a>
+            </nav>
+            <div class="header_contacts">
+                <ul>
+                    <li><a class="phone" href="tel:+380660357715">+38(066)0357715</a></li>
+                    <li>
+                        <div>
+                            <a href=""><img class="icon" src="img/instagram_light.svg" alt="instagram"></a>
+                            <a href=""><img class="icon" src="img/telegram_light.svg" alt="telegram"></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            </div>
+
+        </div>
+        <div class="phone_header">
+            <video class="video" autoplay muted loop>
+                <source type="video/mp4" src="img/pexels-ivan-samkov-5659273%20(1080p).mp4"/>
+            </video>
+            <img src="img/logo3.png" alt="Logo" class="logo">
+            <div class="hamburger-menu">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                    <span></span>
+                </label>
+
+                <ul class="menu__box">
+                    <li><a class="menu__item" href="#section_main">ГОЛОВНА</a></li>
+                    <li><a class="menu__item" href="#section_aboutUs">ПРО НАС</a></li>
+                    <li><a class="menu__item" href="#section_service">ПОСЛУГИ</a></li>
+                    <li><a class="menu__item" href="#section_ourStaff">МАЙСТРИ</a></li>
+                    <li><a class="menu__item" href="#section_reviews">ВІДГУКИ</a></li>
+                    <li><a class="menu__item" href="#section_contacts">КОНТАКТИ</a></li>
+
+                </ul>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <section id="section_main">
+
+            <div class="main_content">
+
+
+                <div>
+                    <h1>САЛОН КРАСИ</h1>
+                    <h2>"BEAUTY SPACE"</h2>
+                    <button class="button_main" onclick="showContactForm3()">ЗАПИСАТИСЬ</button>
+                </div>
+            </div>
+            <div class="button_fixed"  ><button></button></div>
+            <video class="video" autoplay muted loop>
+                <source type="video/mp4" src="img/pexels-ivan-samkov-5659273%20(1080p).mp4"/>
+            </video>
+
+        </section>
+        <section id="section_aboutUs">
+            <div class="aboutUs_content">
+                <img src="img/aboutUs1.jpg" alt="Picture">
+                <ul>
+                    <li ><h3>ПРО НАС</h3></li>
+                    <li><p>Кожна жінка прагне бути красивою і неперевершеною кожного дня і за будь-яких обставин, тому намагається приділити максимум уваги по догляду за собою. Найкращим рішенням буде відвідати наш салон краси, де досвідчені майстри манікюру та педикюру, перукарі, візажисти чаруватимуть над вами.</p></li>
+                    <li><button class="button_aboutUs" onclick="showContactForm()">ЗАПИСАТИСЬ</button></li>
+                </ul>
+            </div>
+        </section>
+        <section id="section_service">
+            <h3>ПОСЛУГИ</h3>
+            <div id="servicesAll">
+                <div class="hair">
+                    <div class="hairPicture">
+                        <img src="img/hair.png" alt="picture">
+                    </div>
+                    <table class="hairText">
+                        <tr>
+                            <th class="first_child"><p>Стрижка жіноча</p></th>
+                            <th class="line"><hr></th>
+                            <th class="last_child"><p>від 500 грн</p></th>
+
+                        </tr>
+                        <tr>
+                            <th class="first_child"><p>Стрижка чоловіча</p></th>
+                            <th class="line"><hr></th>
+                            <th class="last_child"><p>від 200 грн</p></th>
+                        </tr>
+                        <tr>
+                            <th class="first_child"><p>Укладка(без миття голови)</p></th>
+                            <th class="line"><hr></th>
+                            <th class="last_child"><p>від 450 грн</p></th>
+                        </tr>
+                        <tr>
+                            <th class="first_child"><p>Укладка(з миттям голови)</p></th>
+                            <th class="line"><hr></th>
+                            <th class="last_child"><p>від 550 грн</p></th>
+                        </tr>
+                        <tr>
+                            <th class="first_child"><p>Фарбування(один тон)</p></th>
+                            <th class="line"><hr></th>
+                            <th class="last_child"><p>від 600 грн</p></th>
+                        </tr>
+                        <tr>
+                            <th class="first_child"><p>Фарбування(різні техніки)</p></th>
+                            <th class="line"><hr></th>
+                            <th class="last_child"><p>від 800 грн</p></th>
+                        </tr>
+                    </table>
+                </div>
+                <div class="nails">
+                    <div class="nailsPicture">
+                        <img src="img/nails.png" alt="picture">
+                    </div>
+                    <table class="nailsText">
+                        <tr>
+                            <th class="first_child"><p>Комбінований манікюр</p></th>
+                            <th class="line"><hr></th>
+                            <th class="last_child"><p>від 350 грн</p></th>
+
+                        </tr>
+                        <tr>
+                            <th class="first_child"><p>Комбінований манікюр(+гель-лак)</p></th>
+                            <th class="line"><hr></th>
+                            <th class="last_child"><p>від 550 грн</p></th>
+                        </tr>
+                        <tr>
+                            <th class="first_child"><p>Нарощення</p></th>
+                            <th class="line"><hr></th>
+                            <th class="last_child"><p>від 100 грн</p></th>
+                        </tr>
+                        <tr>
+                            <th class="first_child"><p>Чоловічий манікюр</p></th>
+                            <th class="line"><hr></th>
+                            <th class="last_child"><p>від 300 грн</p></th>
+                        </tr>
+                        <tr>
+                            <th class="first_child"><p>Апаратний педікюр</p></th>
+                            <th class="line"><hr></th>
+                            <th class="last_child"><p>від 400 грн</p></th>
+                        </tr>
+                        <tr>
+                            <th class="first_child"><p>Безводний педікюр</p></th>
+                            <th class="line"><hr></th>
+                            <th class="last_child"><p>від 600 грн</p></th>
+                        </tr>
+                        <tr>
+                            <th class="first_child"><p>Гель-лак</p></th>
+                            <th class="line"><hr></th>
+                            <th class="last_child"><p>від 550 грн</p></th>
+                        </tr>
+                    </table>
+                </div>
+                <div class="bodyshaving">
+                    <div class="bodyshavingPicture">
+                        <img src="img/body.png" alt="picture">
+                    </div>
+                    <table class="bodyshavingText">
+
+                        <tr>
+                            <th class="first_child"><p>Шугаринг обличчя</p></th>
+                            <th class="line"><hr></th>
+                            <th class="last_child"><p>від 100 грн</p></th>
+                        </tr>
+                        <tr>
+                            <th class="first_child"><p>Пашки шугаринг</p></th>
+                            <th class="line"><hr></th>
+                            <th class="last_child"><p>від 200 грн</p></th>
+                        </tr>
+                        <tr>
+                            <th class="first_child"><p>Бікіні шугаринг</p></th>
+                            <th class="line"><hr></th>
+                            <th class="last_child"><p>від 400 грн</p></th>
+                        </tr>
+                        <tr>
+                            <th class="first_child"><p>Ноги шугаринг</p></th>
+                            <th class="line"><hr></th>
+                            <th class="last_child"><p>від 450 грн</p></th>
+                        </tr>
+                        <tr>
+                            <th class="first_child"><p>Руки шугаринг</p></th>
+                            <th class="line"><hr></th>
+                            <th class="last_child"><p>від 250 грн</p></th>
+                        </tr>
+                    </table>
+                </div>
+                <div class="makeup">
+                    <div class="makeupPicture">
+                        <img src="img/makeup.png" alt="picture">
+                    </div>
+                    <table class="makeupText">
+                        <tr>
+                            <th class="first_child"><p>Денний</p></th>
+                            <th class="line"><hr></th>
+                            <th class="last_child"><p>від 650 грн</p></th>
+
+                        </tr>
+                        <tr>
+                            <th class="first_child"><p>Вечірній</p></th>
+                            <th class="line"><hr></th>
+                            <th class="last_child"><p>від 850 грн</p></th>
+                        </tr>
+                        <tr>
+                            <th class="first_child"><p>Весільний</p></th>
+                            <th class="line"><hr></th>
+                            <th class="last_child"><p>від 1000 грн</p></th>
+                        </tr>
+                        <tr>
+                            <th class="first_child"><p>Пробний весільний</p></th>
+                            <th class="line"><hr></th>
+                            <th class="last_child"><p>від 650 грн</p></th>
+                        </tr>
+                    </table>
+                </div>
+                <div class="brows">
+                    <div class="browsPicture">
+                        <img src="img/brows.png" alt="picture">
+                    </div>
+                    <table class="browsText">
+                        <tr>
+                            <th class="first_child"><p>Ламінування вій</p></th>
+                            <th class="line"><hr></th>
+                            <th class="last_child"><p>від 600 грн</p></th>
+
+                        </tr>
+                        <tr>
+                            <th class="first_child"><p>Ламінування брів</p></th>
+                            <th class="line"><hr></th>
+                            <th class="last_child"><p>від 500 грн</p></th>
+                        </tr>
+                        <tr>
+                            <th class="first_child"><p>Фарбуання брів + форма</p></th>
+                            <th class="line"><hr></th>
+                            <th class="last_child"><p>від 450 грн</p></th>
+                        </tr>
+                        <tr>
+                            <th class="first_child"><p>Форма брів</p></th>
+                            <th class="line"><hr></th>
+                            <th class="last_child"><p>від 100 грн</p></th>
+                        </tr>
+                        <tr>
+                            <th class="first_child"><p>Нарощення вій</p></th>
+                            <th class="line"><hr></th>
+                            <th class="last_child"><p>від 700 грн</p></th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <section id="section_blockOfprices">
+            <div class="block">
+                <h4>Full-body шугаринг</h4>
+                <img src="img/sugaring.png">
+                <div class="textInBlock">
+                    <p>Обличчя шугаринг</p>
+                    <p>+</p>
+                    <p>Ноги шугаринг</p>
+                    <p>+</p>
+                    <p>Пашки шугаринг</p>
+                    <p>+</p>
+                    <p>Бікіні шугаринг</p>
+                </div>
+                <h4>1200 грн</h4>
+                <div class="send">
+                    <button>ЗАМОВИТИ</button>
+                </div>
+            </div>
+            <div class="block">
+                <h4>Повний догляд за нігтями</h4>
+                <img src="img/manicure.png">
+                <div class="textInBlock">
+                    <p>Зняття, комбінований манікюр</p>
+                    <p>+</p>
+                    <p>Покриття гель-лаком</p>
+                    <p>+</p>
+                    <p>Зняття, комбінований педікюр</p>
+                    <p>+</p>
+                    <p>Покриття гель-лаком</p>
+                 </div>
+                <h4>1300 грн</h4>
+                <div class="send">
+                    <button>ЗАМОВИТИ</button>
+                </div>
+            </div>
+            <div class="block">
+                <h4>Повне ламінування</h4>
+                <img src="img/eyelashes.png">
+                <div class="textInBlock">
+                    <p>Ламінування брів</p>
+                    <p>+</p>
+                    <p>Покраска брів</p>
+                    <p>+</p>
+                    <p>Ламінування вій</p>
+                </div>
+                <h4>1000 грн</h4>
+                <div class="send">
+                    <button>ЗАМОВИТИ</button>
+                </div>
+            </div>
+        </section>
+        <section id="section_ourStaff">
+            <h3>НАШІ МАЙСТРИ</h3>
+            <div class="ourStaff_slides">
+
+                    <div class="mySlides fade">
+                        <div class="ourStaff_info">
+                            <img src="img/nailspic.png">
+                            <div>
+                                <h4>Світлана</h4>
+                                <p>Майстер манікюру</p>
+                                <p>Досвід: 5 років</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="ourStaff_info">
+                            <img src="img/hairStaff.png">
+                            <div>
+                                <h4>Анастасія</h4>
+                                <p>Майстер стилист-перукар</p>
+                                <p>Досвід: 7 років</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="ourStaff_info">
+                            <img src="img/eyesStaff.png">
+                            <div>
+                                <h4>Валерія</h4>
+                                <p>Майстер візажист-бровіст</p>
+                                <p>Досвід: 3 роки</p>
+                            </div>
+                        </div>
+                    </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </div>
+        </section>
+        <section  id="section_reviews">
+            <h3>ВІДГУКИ</h3>
+            <div class="reviews_container">
+            <div class="review">
+                <div class="review_txt">
+                    <h4>Вікторія</h4>
+                    <p><b>2 місяці тому</b></p>
+                </div>
+                <div class = "stars">
+                    <img src="img/Starviolet.png">
+                    <img src="img/Starviolet.png">
+                    <img src="img/Starviolet.png">
+                    <img src="img/Starviolet.png">
+                    <img src="img/Starviolet.png">
+                </div>
+                <p>Чудовий персонал. Всі зустрічають з усмішками, відкриті і клієнтоорієнтовані. Одразу пропонують чай або каву.  Я була на стрижці довгого волосся. Є продумане місце для сумочки.  Гарний інтер’єр, яскравий і цікавий.</p>
+            </div>
+                <div class="review2">
+                    <div class="review_txt">
+                        <h4>Дар’я</h4>
+                        <p><b>5 місяців тому</b></p>
+                    </div>
+                    <div class = "stars">
+                        <img src="img/Starviolet.png">
+                        <img src="img/Starviolet.png">
+                        <img src="img/Starviolet.png">
+                        <img src="img/Starviolet.png">
+                        <img src="img/no%20color.png">
+                    </div>
+                    <p>Загалом атмосфера гостинна, дівчата привітні, все чисто. Було приємно, що привітали із днем народження і зробили знижку. Експрес-пакет із макіяжу і плетіння зробили швидко і якісно, дякую. Але манікюр і педікюр засмутили, дівчатам не достає професіоналізму.</p>
+                </div>
+                <div class="review3">
+                    <div class="review_txt">
+                        <h4>Катерина</h4>
+                        <p><b>6 місяців тому</b></p>
+                    </div>
+                    <div class = "stars">
+                        <img src="img/Starviolet.png">
+                        <img src="img/Starviolet.png">
+                        <img src="img/Starviolet.png">
+                        <img src="img/Starviolet.png">
+                        <img src="img/Starviolet.png">
+                    </div>
+                    <p>Дуже красивий та милий салон:) дівчата усі дуже привітні та уважні. Була у майстра Ксюші і мені дуже сподобалась стрижка❤ загалом усе супер, засоби по догляду за волоссям від професійних брендів і ціна невисока!</p>
+                </div>
+            </div>
+        </section>
+        <section id="section_contactBack">
+            <div id="container">
+                <form id="form">
+                    <h2>ОНЛАЙН ЗАПИС</h2>
+                    <div class="data_name">
+                        <label>Ваше ім'я</label>
+                        <input type="text" class="name" placeholder="">
+                    </div>
+                    <div class="data_number">
+                        <label>Номер телефону</label>
+                        <input type="tel" class="phoneNumber" placeholder="">
+                    </div>
+                    <div class="send">
+                        <button>ВІДПРАВИТИ</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section id="section_contacts">
+            <div class="contacts_back"></div>
+            <h3>КОНТАКТИ</h3>
+            <div class="contacts_content">
+                <div class="contacts">
+                    <p class="phone_address"><b>Адреса:</b> м.Львів, вул. Роксоляни, 75</p>
+                    <p class="phone_address"><b>Телефон:</b><a href="">+38(066)-035-77-15</a></p>
+                    <p class="hours"><b>Години роботи:</b> </p>
+                    <p>Пн - Сб:    10:00 - 20:00</p>
+                    <p>Неділя:     10:00 - 15:00</p>
+                    <div>
+                        <a href=""><img class="icon" src="img/ig_violet.png" alt="instagram"></a>
+                        <a href=""><img class="icon" src="img/tg_violet.png" alt="telegram"></a>
+                    </div>
+                    <div class = "contacts_button">
+                        <button class="contacts_but" onclick="showContactForm2()">ЗАПИСАТИСЬ</button>
+                    </div>
+                </div>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.7453992553646!2d23.960303676379596!3d49.84724123061262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473addfa9addaba7%3A0xd35d35868daafb0e!2z0LLRg9C70LjRhtGPINCg0L7QutGB0L7Qu9GP0L3QuCwgNzUsINCb0YzQstGW0LIsINCb0YzQstGW0LLRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjCwgNzkwMDA!5e0!3m2!1suk!2sua!4v1699627488700!5m2!1suk!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+    <footer>
+        <div class="footer_wrap">
+            <div class="footer_nav">
+                <p><b>ІНФОРМАЦІЯ</b></p>
+                <nav>
+                    <ul>
+                        <li><a href="">ГОЛОВНА</a></li>
+                        <li><a href="">ПРО НАС</a></li>
+                        <li><a href="">ПОСЛУГИ</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="">МАЙСТРИ</a></li>
+                        <li><a href="">ВІДГУКИ</a></li>
+                        <li><a href="">КОНТАКТИ</a></li>
+                    </ul>
+
+                </nav>
+            </div>
+            <div class="footer_logo">
+                <img src="img/logo3.png">
+                <div class="footer_txt">
+                    <p><b>Команда салону краси “Beauty Space”</b> - це професіонали, які допоможуть тобі почуватись неймовірною кожну мить!</p>
+                </div>
+            </div>
+            <ul class="footer_media">
+                <li><a href="tel:+380660357715">+38(066)-035-77-15</a></li>
+                <li>
+                    <div class="footer_icons">
+                        <a href=""><img class="icon2" src="img/instagram_light.svg" alt="instagram"></a>
+                        <a href=""><img class="icon2" src="img/telegram_light.svg" alt="telegram"></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
